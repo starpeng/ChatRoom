@@ -86,7 +86,7 @@ $(function () {
             }
         }
 
-        $('#room-list div').click(function () {
+        $('#room-list a').click(function () {
             chatApp.processCommand('/join ' + $(this).text);
             $('#send-message').focus();
         });
