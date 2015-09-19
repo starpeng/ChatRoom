@@ -1,0 +1,9 @@
+{
+  "name":"chatroom",
+  "version":"0.0.1",
+  "description":"多用户多房间WEB聊天室",
+  "dependencies":{
+    "socket.io":"~0.9.6",
+    "mime":"~1.2.7"
+  }
+}

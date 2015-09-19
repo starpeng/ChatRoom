@@ -1,0 +1,20 @@
+body {
+    padding-top: 55px;
+    font: 14px 宋体,Arial,sans-serif;
+}
+
+.room {
+}
+
+#messages {
+    height: 400px;
+    overflow: auto;
+    background-color: #eee;
+    padding: 5px;
+    line-height: 28px;
+}
+
+.help {
+    font-size: 9px;
+    padding-top: 10px;
+}
