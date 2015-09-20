@@ -126,7 +126,7 @@ function processUserInput(chatApp, socket) {
     if (message.charAt(0) == '/') {
         var result = chatApp.processCommand(message);
         if (result) {
-            $('#messages').append(systemMessage(systemMessage));
+            $('#messages').append(systemMessage(result));
         }
     } else {
         chatApp.sendMessage(message);
