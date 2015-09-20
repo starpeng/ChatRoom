@@ -1,7 +1,7 @@
 # ChatRoom
 ChatRoom base node,socket.io,bootstrap
 
-If you just want to see it running, visit: [http://chat.mylieon.net](http://chat.mylieon.net)
+If you just want to see it running, visit: [http://chat.mylifeon.net](http://chat.mylifeon.net)
 
 ##What you need to run
 you have to download and install [git](http://git-scm.com/downloads) and [Node.js](http://nodejs.org/download/).
@@ -26,7 +26,7 @@ Now open this URL in your browser
 #WEB聊天室
 基于node,socket.io,bootstrap的WEB聊天室程序
 
-示例地址： [http://chat.mylieon.net](http://chat.mylieon.net)
+示例地址： [http://chat.mylifeon.net](http://chat.mylifeon.net)
 
 
 ##运行程序需要准备
