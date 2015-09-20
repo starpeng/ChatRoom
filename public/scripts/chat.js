@@ -87,14 +87,19 @@ $(function () {
         }
 
         $('#room-list a').click(function () {
-            chatApp.processCommand('/join ' + $(this).text());
+            var that = $(this);
+            if (that.hasClass("active")) {
+                return;
+            }
+
+            chatApp.processCommand('/join ' + that.text());
             $('#send-message').focus();
         });
     });
 
     setInterval(function () {
         socket.emit('rooms');
-    }, 1000);
+    }, 10000);
 
     $('#send-message').focus();
     $('#send-form').submit(function () {
