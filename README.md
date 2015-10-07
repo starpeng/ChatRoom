@@ -22,6 +22,8 @@ Run the application
 Now open this URL in your browser
 > http://localhost:3000/
 
+if you use nginx to proxy the site,vist [websocket-nginx](https://www.nginx.com/blog/websocket-nginx/)
+
 
 #WEB聊天室
 基于node,socket.io,bootstrap的WEB聊天室程序
@@ -47,3 +49,5 @@ Now open this URL in your browser
 
 打开你的浏览器输入以下网址
 > http://localhost:3000/
+
+如果你使用nginx作为反向代理,请查看 [websocket-nginx](https://www.nginx.com/blog/websocket-nginx/)
